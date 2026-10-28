@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with safe zone -->
+  <rect width="512" height="512" rx="120" fill="url(#bg)"/>
+  
+  <!-- Safe Zone Inner Graphic (Within 80% circle) -->
+  <g transform="translate(96, 96)">
+    <!-- Central Shield / Vault Shape -->
+    <rect x="20" y="40" width="280" height="220" rx="36" fill="url(#card)" stroke="#e2e8f0" stroke-width="8"/>
+    
+    <!-- Vault Dial / Accounting Circle -->
+    <circle cx="160" cy="150" r="60" fill="#0284c7" fill-opacity="0.1" stroke="#0284c7" stroke-width="8"/>
+    <circle cx="160" cy="150" r="38" fill="#0369a1"/>
+    
+    <!-- Travel Compass / Airplane Motif inside dial -->
+    <path d="M160 120 L168 144 L192 150 L168 156 L160 180 L152 156 L128 150 L152 144 Z" fill="#ffffff"/>
+    
+    <!-- Cash / Bill Header lines -->
+    <rect x="60" y="75" width="200" height="12" rx="6" fill="#0284c7" fill-opacity="0.3"/>
+    <circle cx="250" cy="150" r="10" fill="#10b981"/>
+    <circle cx="70" cy="150" r="10" fill="#0284c7"/>
+  </g>
+</svg>

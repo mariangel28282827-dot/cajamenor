@@ -1,0 +1,6 @@
+{
+  "name": "Procedimiento de Caja Menor - Viaja con Adri",
+  "description": "Sistema y Manual Integral del Procedimiento Administrativo, Contable y Legal de Caja Menor para la Agencia de Viajes con Adri (Colombia).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
